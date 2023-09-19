@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Application</title>
+</head>
+<style>
+    h1{
+        color: rgba(38, 61, 130, 0.991);
+
+    }
+    .home{
+        
+        border: 5px black double;
+        background-color: lightcyan;
+        background-color: lemonchiffon;
+    }
+    .app{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 95%;
+        height: auto;
+        background-color: lightcoral;
+        margin: 2.5%;
+        background-image: url(computer1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        line-height: 45px;
+        flex-wrap: nowrap;
+        width: auto;
+        height: auto;
+        background-color: rgba(240, 219, 128, 0.306);
+        margin: 2.5%;
+        padding: 5%;
+        
+    }
+    h2{
+        color:rgb(246, 246, 250);
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        
+    }
+    
+</style>
+<body>
+    <div class="home">
+        <h1 style="text-align: center;">Zill Parishad High School, Pedda Harivanam<hr></h1>
+        <div class="app">
+           
+            <form>
+                <h2>Personal Information <hr ></h2>
+                <label for="Name">Full Name: <input type="text" placeholder="Enter your name" required></label>
+                <label for="Phone">Phone Number: <input type="number" placeholder="Enter your phone number"></label>
+                <label for="email">E-Mail: <input type="email" required placeholder="xyz@gmail.com"></label>
+                <label for="DOB">Date Of Birth: <input type="date" required></label>
+                <label for="Father_Name">Father Name: <input type="text" placeholder="Enter your father name.." required></label>
+                <label for="Mother Name">Mother Name: <input type="text " placeholder="Enter your Mother Name.." required> </label>
+                <label for="Aadhar">Adhar Number: <input type="number" placeholder="xxxx xxxx 3789" required></label>
+                <label for="sex">Sex:  <input type="radio" value="Male" checked>Male <input type="radio" value="female">Female <input type="radio" value="Others">Others </label>
+           
+            <h2> Educational Details <hr></h2>
+           
+                <label for=" Elementary School">Elementary School: <input type="text" placeholder="schoole Name" required></label>
+                <label for="Percentage">Percentage: <input type="text" placeholder="enter previos class percentage" required></label>
+                <label for="Medium">Medium of Studied: 
+                    <select>
+                        <option value="Telugu">Telugu</option>
+                        <option value="English">English</option>
+                        <option value="Hurdhu">Hurdhu</option>
+                    </select>
+                </label>
+                <label for="YOP">Year of passing: <input type="text" placeholder="enter year of passing" required></label>
+            
+            <h2>Contact Address <hr></h2>
+            
+                <label for="Door NO">Door Number: <input type="text" placeholder="enter your house number"  required></label>
+                <label for="Street" >Street Name: <input type="text" placeholder="Street Name"></label>
+                <label for="District">District Name: <input type="text" placeholder="Enter your District Number"></label>
+                <label for="State ">State Name: <input type="text" placeholder="Enter state name"></label>
+                <label for="Pin code"> Pin Code <input type="number" placeholder="enter pin code"></label>
+
+                <label for="submit">Submit your application: <input type="submit" value="submit"></label>
+            </form>
+        </div>
+</body>
+</html>
